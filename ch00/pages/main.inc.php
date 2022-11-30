@@ -10,7 +10,8 @@
             </figcaption>
         </figure>
         <section>
-            <h2><?= User::$_nombre ?>&nbsp;
+            <h2>
+                <?= User::$_nombre ?>&nbsp;
                Dernière connexion du : <time 
                                             datetime="<?= $_date ?>">
                                             <?= $_date_fr ?>
@@ -21,7 +22,7 @@
                 Votre adress IP est le : <?= $_address_ip."<br> ".$_server ?>
                 <pre>
                 <?php
-                     print_r($_lang)
+                     //print_r($_lang)
                 ?>
                 </pre>
                 <?php

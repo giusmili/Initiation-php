@@ -16,7 +16,7 @@
     <!--ici main -->
 
     <?php
-        include_once "./pages/main.inc.php";
+        include_once "./pages/table-start.inc.php";
     ?>
     
     <footer>
@@ -28,12 +28,11 @@
             </time>
         </p>
     </footer>
-    <!-- <pre>
+    
     <?php
         // phpinfo()
         // print_r($_SERVER)
     ?>
-    </pre> -->
-    <!-- display : block -->
+   
 </body>
 </html>

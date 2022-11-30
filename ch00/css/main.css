@@ -17,6 +17,7 @@ h6, p, ul, ol, figure, address{
     margin: 0;
     padding: 0;
     font-weight: normal;
+    list-style: none;
 }
 address, i, em, cite{
     font-style: normal;
@@ -58,6 +59,17 @@ main > figure, main section, footer{
 }
 main section, footer{
     margin-top: 0;
+}
+main .user{
+    line-height: 3.5rem;
+    margin: 1rem 0;
+    background-color: rgb(195, 190, 190);
+}main .user li{
+    padding: .8rem;
+}
+main .user li:nth-child(2n + 2){
+    background-color: rgb(244, 240, 240);
+    
 }
 section > h2::before{
     content: "\1F47D";
