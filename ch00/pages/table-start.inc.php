@@ -67,13 +67,13 @@
             print "</ol>\n";
 
             // tableau clé et valeur
-            const user = [
+            const user = array(
                 "Nom" => "Ledorf",
                 "Prenom" => "Rasmus",
                 "Ville" => "Copenaghen",
                 "Pays" => "Danemark",
                 "Mail"=> "l.rasmus@php.net"
-            ];
+            );
            /*  print "<pre>";
                 print_r(user);
             print "</pre>"; */
@@ -86,6 +86,27 @@
                     print '<li>'.$_key.'<a href="mailto:'.$_value.'"> '.$_value.'</li>';
                 }
         print "</ul>\n";
+        
+        /* tableaux multidimentionnel */
+        $_supertable = [
+            1=>["code"=>"html","status"=>true],
+            2=>["code"=>"php","status"=>true],
+            3=>["code"=>"js","status"=>0]
+        ];
+        print "<pre>";
+            print_r($_supertable);
+            
+        print "</pre>";
+
+        print "<ul class=\"user\">\n";
+            foreach ($_supertable as $_key => $_value) {
+                foreach ($_value as $_key => $_valeurs) {
+                    print "<li>".$_key." : ".$_valeurs."</li>";
+                }
+               
+            }
+        print "</ul>\n";
+
         ?>
 
         
