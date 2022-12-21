@@ -76,7 +76,9 @@
    
     </main>
     <footer>
-        <strong>&copy; - Under - 20-12-2022 : 17 - 45 c'est l'heure</strong>    </footer>
+        <strong>
+            &copy; - Under - <?= date('Y')?>
+        </strong>    </footer>
      
 </body>
 </html>
