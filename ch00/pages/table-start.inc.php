@@ -108,11 +108,5 @@
         print "</ul>\n";
 
         ?>
-
-        
-
-           
-           
-
     </section>
 </main>
