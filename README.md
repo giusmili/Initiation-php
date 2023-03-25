@@ -1,2 +1,2 @@
 # Initiation-php
-Comment travailer un formulaire
+Comment travailler un formulaire
